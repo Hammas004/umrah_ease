@@ -1,0 +1,56 @@
+name: umrah_ease
+description: "Your complete guide for sacred Umrah and Hajj journeys."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.3.0
+
+  # Local Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+
+  # Fonts & UI
+  google_fonts: ^6.2.1
+
+  # Utilities
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.12
+  riverpod_generator: ^2.4.3
+  custom_lint: 0.7.6
+  riverpod_lint: ^2.3.14
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+  # Fonts are served via google_fonts package (no local files needed).
+  # To bundle fonts offline, drop .ttf files into assets/fonts/ and
+  # uncomment the fonts section below.
+

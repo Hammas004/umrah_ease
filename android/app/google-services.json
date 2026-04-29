@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613529712540",
+    "project_id": "umrahease-6576b",
+    "storage_bucket": "umrahease-6576b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613529712540:android:a5759e63830598c0aeba59",
+        "android_client_info": {
+          "package_name": "com.umrahease.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHWtvobBlvn_fKmCC4x9u1ollr1hdFtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
